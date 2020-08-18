@@ -1,0 +1,19 @@
+:root {
+    --red:  #e80d0d;
+    --orange:   #f98500;
+    --blue: #303E73;
+    --green:    #256F5C;
+    --blue-green:   #0ed6a4;
+    --brown:    #8c7a51;
+    --grey: #707170;
+    --black:    #272727;
+    --blue-grey:    #2c4870;
+    --dark-red:  #9f3548;
+    --light-purple: #7681aa;
+    --light-blue:    lightblue;
+
+
+    --font-one: 'Noto Serif', serif;
+    --font-two: 'Oswald', sans-serif;
+}
+
