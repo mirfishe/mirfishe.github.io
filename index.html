@@ -44,39 +44,99 @@
       <div class="header jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">Michael Fisher</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <p class="lead">Expert in Web Development with 15+ years focused on Business Development and Digital Marketing.</p>
         </div>
       </div>
     </section>
 
-    <section id="projects">
-        <div class="container">
+    <section id="projects" class="projects">
+        <div class="container p-5">
           <div class="row justify-content-center">
-            <h1 class="display-4">Projects</h1>
+            <h2 class="text-center p-2">Projects</h2>
           </div>
-          <div class="row">
-            <div class="row">
-                <div class="col-md-4 offset-md-4">This is a column.</div>
-                <div class="col">This is a column.</div>
-                <div class="col">This is a column.</div>
-                <div class="col">This is a column.</div>
+          <div class="row justify-content-around">
+
+                <div class="card">
+                  <img src="assets/static-layout.jpg" class="card-img-top" alt="Static Layout Application">
+                  <div class="card-body">
+                    <h5 class="card-title">Static Layout Application</h5>
+                    <p class="card-text">recreate a static website from the list below. However you will use only HTML & CSS to accomplish this (no JavaScript)</p>
+                    <a href="https://mirfishe.github.io/StaticLayout/" class="btn btn-primary" target="_blank">View</a>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/creature-assignment.jpg" class="card-img-top" alt="Creature Assignment">
+                  <div class="card-body">
+                    <h5 class="card-title">Creature Assignment</h5>
+                    <p class="card-text">use <a href="https://codepen.io/" target="_blank">codepen.io</a> and create a creature using HTML and CSS.  Feel free to incorporate JavaScript (not required)</p>
+                    <a href="https://codepen.io/mrfisher/pen/OJMYRzX" class="btn btn-primary" target="_blank">View</a>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/api-project-1.jpg" class="card-img-top" alt="API Project #1">
+                  <div class="card-body">
+                    <h5 class="card-title">API Project #1</h5>
+                    <p class="card-text"> see your understanding and ability to fetch data from an API, use DOM manipulation to tie the JavaScript to HTML, and your ability to then take that data and display it to the screen.</p>
+                    <a href="https://mirfishe.github.io/API-Challenge/" class="btn btn-primary" target="_blank">View</a>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/api-project-2.jpg" class="card-img-top" alt="API Project #2">
+                  <div class="card-body">
+                    <h5 class="card-title">API Project #2</h5>
+                    <p class="card-text">see your understanding and ability to fetch data from an API, use DOM manipulation to tie the JavaScript to HTML, and your ability to then take that data and display it to the screen. Use Bootstrap to help style and make your application visually appealing</p>
+                    <a href="https://mirfishe.github.io/API-Challenge-2/" class="btn btn-primary" target="_blank">View</a>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="https://elevenfifty.org/wp-content/uploads/2020/03/badges-webdev_blue.png" class="card-img-top" alt="Eleven Fifty Academy Web Development Blue Badge">
+                  <div class="card-body">
+                    <h5 class="card-title">Blue Badge</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary" target="_blank">TBA</a>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="https://elevenfifty.org/wp-content/uploads/2020/03/badges-webdev_red.png" class="card-img-top" alt="Eleven Fifty Academy Web Development Red Badge">
+                  <div class="card-body">
+                    <h5 class="card-title">Red Badge</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary" target="_blank">TBA</a>
+                  </div>
+                </div>
+                
             </div>
         </div>
     </section>
 
     <section id="about">
-      <div class="jumbotron jumbotron-fluid">
+      <div class="about jumbotron jumbotron-fluid p-5">
         <div class="container">
-          <h1 class="display-4">About Me</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h2 class="text-center p-2">About Me</h2>
+          <p class="lead">Expert in Web Development with 15+ years focused on Business Development and Digital Marketing.</p>
+
+          <p>Experienced problem solver able to handle multiple projects concurrently. Excellent researcher. Skilled at explaining complicated technical concepts to non-technical users.</p>
+            
+          <p>Creative, curious, ongoing learner with a lifelong love of Science Fiction. Passionate about high-quality digital marketing. Believe that there is a direct correlation between professional web sites and effective marketing campaigns.</p>
+            
+          <p>Collaborated on award-winning projects and presented at conferences. Focused on applying internet technology to marketing and business objectives.</p>
+            
+          <p>Additional experience in Database Development, Information Architecture, Usability, Content Development, Search Engine Optimization, Email Marketing, Social Media, Customer Relationship Management, Web Analytics and a bit of Photoshop.</p>
+
+          <a class="btn btn-primary" href="assets/MichaelFisher.pdf" role="button" target="_blank">Resume</a>
         </div>
       </div>
     </section>
 
-    <section id ="contact">
-        <div class="container">
+    <section id ="contact" class="contact">
+        <div class="container p-5">
           <div class="row justify-content-center">
-            <h1 class="display-4">Contact</h1>
+            <h2 class="text-center p-2">Contact</h2>
           </div>
           <div class="row justify-content-center">
           <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/xyynvjnd" method="post">
@@ -93,21 +153,24 @@
               <textarea rows="5" cols="50" name="message" class="form-control form-control-lg" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required></textarea>
               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
             </div>
-            <input type="submit" value="Submit">
+            <input class="btn btn-secondary" type="submit" value="Submit">
           </form>
         </div>
         </div>
     </section>
 
-    <footer>
+    <footer class="p-5">
 
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item list-group-item-light">Cras justo odio</li>
-        <li class="list-group-item list-group-item-light">Dapibus ac facilisis in</li>
-        <li class="list-group-item list-group-item-light">Morbi leo risus</li>
-        <li class="list-group-item list-group-item-light">Porta ac consectetur ac</li>
-        <li class="list-group-item list-group-item-light">Vestibulum at eros</li>
-      </ul>
+      <div class="container p-5">
+        <div class="row align-items-center justify-content-end">
+          <div class="col-sm-1">
+            <a href="https://www.linkedin.com/in/mrfisher/" class=""><img src="assets/LI-In-Bug-32px.png" class="imgLink"></a>
+          </div>
+          <div class="col-sm-1">
+            <a href="https://github.com/mirfishe" class=""><img src="assets/GitHub-Mark-32px.png" class="imgLink"></a>
+          </div>
+          </div>
+      </div>
 
     </footer>
 
