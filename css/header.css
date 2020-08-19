@@ -1,16 +1,42 @@
 .header {
-    background: url("../assets/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg") no-repeat center;
     /* background-image: radial-gradient(
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, .25),
-        rgba(0, 0, 0, .5),
-        rgba(0, 0, 0, .75),
-        rgba(0, 0, 0, 1))
-        url("../assets/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg"); */
-    background-size: cover;
-    color:  white;
-    text-align: center;
-    margin-bottom: 0rem;
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, .25),
+    rgba(0, 0, 0, .5),
+    rgba(0, 0, 0, .75),
+    rgba(0, 0, 0, 1))
+    url("../assets/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg"); */
+/* background: url("../assets/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg") no-repeat center;
+background-size: cover; */
+/* color:  white; */
+text-align: center;
+margin-bottom: 0rem;
 
-    font-family: var(--font-two);
+position: relative; 
+height: 50vh;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
 }
+
+.header::before {    
+content: "";
+background-image: url('../assets/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg');
+background-size: cover;
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+/* opacity: 0.50; */
+}
+
+.header div h1 {
+position: relative;
+color: #ffffff;  
+}
+
+/* .header div p {
+color: #ffffff;  
+} */
