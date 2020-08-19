@@ -1,11 +1,13 @@
 .projects {
     /* background-color: #e9ecef; */
-    background-color: var(--very-light-grey);
+    background-color: var(--very-light-brown);
 }
 
 .card {
     width: 18rem;
     margin: 10px;
+
+    background-color: #f8f9fa;
 }
 
 .card-img-top {

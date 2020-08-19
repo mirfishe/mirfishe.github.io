@@ -65,6 +65,10 @@ node_modules/
 # dotenv environment variables file
 .env
 
+# Test Images And Backup Images
+creature-assignmentBU.jpg
+creature-assignmentBU2.jpg
+creature-assignmentBU3.jpg
 
 # Downloaded Zip Files
 GitHub-Mark.zip

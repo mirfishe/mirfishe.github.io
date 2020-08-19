@@ -1,4 +1,5 @@
 .about {
-    background-color: lightblue;
+    /* background-color: lightblue; */
+    background-color: var(--very-light-grey);
     margin-bottom: 0rem;
 }
