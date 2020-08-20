@@ -27,7 +27,7 @@ content: "";
 /* background-image: url('../assets/vasiliki-volkova-bPHy_Fwa5ck-unsplash.jpg'); */
 /* background-image: url('../assets/jay-mullings-oSu0_fp_74k-unsplash.jpg'); */
 background-image: url('../assets/vladimir-malyavko-vdQGc0lSd1c-unsplash.jpg');
-background-color: var(--very-light-purple);
+/* background-color: var(--very-light-purple); */
 background-size: cover;
 position: absolute;
 top: 0px;
