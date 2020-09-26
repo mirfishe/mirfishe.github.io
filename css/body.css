@@ -1,5 +1,73 @@
 body {
     /* background: var(--light-blue); */
-    font-family: var(--font-one);
+    /* font-family: var(--font-one); */
+    /* font-family: var(--font-two); */
 }
 
+.about {
+    /* background-color: lightblue; */
+    background-color: var(--very-light-blue-grey);
+    margin-bottom: 0rem;
+}
+
+
+.projects {
+    /* background-color: #e9ecef; */
+    background-color: var(--very-light-brown);
+    margin-bottom: 0rem;
+}
+
+.projects-card {
+    width: 18rem;
+    margin: 10px;
+
+    background-color: #f8f9fa;
+}
+
+.projects-card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+.skills {
+    /* background-color: #e9ecef; */
+    background-color: var(--very-light-blue-grey);
+    margin-bottom: 0rem;
+}
+
+.experience {
+    background-color: var(--very-light-purple);
+    /* background-color: #7681aa; */
+    margin-bottom: 0rem;
+}
+
+.accomplishments {
+    /* background-color: #e9ecef; */
+    background-color: var(--very-light-brown);
+    margin-bottom: 0rem;
+}
+
+.volunteer {
+    background-color: var(--very-light-blue-grey);
+    /* background-color: #7681aa; */
+    margin-bottom: 0rem;
+}
+
+.education {
+    /* background-color: lightblue; */
+    background-color: var(--very-light-grey);
+    margin-bottom: 0rem;
+}
+
+.contact {
+    background-color: var(--very-light-purple);
+    /* background-color: #7681aa; */
+    margin-bottom: 0rem;
+}
+
+.message {
+    height: 100%;
+}

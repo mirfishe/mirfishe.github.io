@@ -1,9 +1,5 @@
-.contact {
+.experience {
     background-color: var(--very-light-purple);
     /* background-color: #7681aa; */
     margin-bottom: 0rem;
-}
-
-textarea {
-    height: 100%;
 }
