@@ -12,14 +12,15 @@ justify-content: center;
 
 .header::before {    
 content: "";
-background-image: url('../assets/dragonfly/dragonfly-1531038_1280.png');
+background-image: url('../assets/vladimir-malyavko-vdQGc0lSd1c-unsplash.jpg');
+/* background-image: url('../assets/dragonfly/dragonfly-1531038_1280.png'); */
 background-size: cover;
 position: absolute;
 top: 0px;
 right: 0px;
 bottom: 0px;
 left: 0px;
-opacity: 0.10;
+opacity: 0.25;
 }
 
 .header div h1 {
