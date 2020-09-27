@@ -2,7 +2,8 @@ body {
     /* background: var(--light-blue); */
     /* font-family: var(--font-one); */
     /* font-family: var(--font-two); */
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family: var(--font-default);
 }
 
 .about {
@@ -63,6 +64,10 @@ body {
     background-color: var(--very-very-light-grey);
 }
 
+.experience-title {
+    font-weight: 500;
+}
+
 .accomplishments {
     /* background-color: #e9ecef; */
     background-color: var(--very-light-brown);
@@ -86,7 +91,7 @@ body {
 }
 
 .education-p-lead {
-    font-weight: 500
+    font-weight: 500;
 }
 
 .contact {
