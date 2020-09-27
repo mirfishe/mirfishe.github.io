@@ -2,6 +2,7 @@ body {
     /* background: var(--light-blue); */
     /* font-family: var(--font-one); */
     /* font-family: var(--font-two); */
+    font-family: sans-serif;
 }
 
 .about {
@@ -9,7 +10,6 @@ body {
     background-color: var(--very-light-blue-grey);
     margin-bottom: 0rem;
 }
-
 
 .projects {
     /* background-color: #e9ecef; */
@@ -20,8 +20,8 @@ body {
 .projects-card {
     width: 18rem;
     margin: 10px;
-
-    background-color: #f8f9fa;
+    /* background-color: #f8f9fa; */
+    background-color: var(--very-very-light-grey);
 }
 
 .projects-card-img-top {
@@ -59,10 +59,18 @@ body {
     margin-bottom: 0rem;
 }
 
+.experience-card {
+    background-color: var(--very-very-light-grey);
+}
+
 .accomplishments {
     /* background-color: #e9ecef; */
     background-color: var(--very-light-brown);
     margin-bottom: 0rem;
+}
+
+.awards-card {
+    background-color: var(--very-very-light-grey);
 }
 
 .volunteer {
@@ -75,6 +83,10 @@ body {
     /* background-color: lightblue; */
     background-color: var(--very-light-grey);
     margin-bottom: 0rem;
+}
+
+.education-p-lead {
+    font-weight: 500
 }
 
 .contact {
