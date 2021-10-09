@@ -1,3 +1,30 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+/deploy
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+
 # Logs
 logs
 *.log
@@ -65,14 +92,8 @@ node_modules/
 # dotenv environment variables file
 .env
 
-# Test Images And Backup Images
-creature-assignmentBU.jpg
-creature-assignmentBU2.jpg
-creature-assignmentBU3.jpg
+# Downloaded Code
+*.zip
 
-# Unused Header Images
-unused/
-
-# Downloaded Zip Files
-GitHub-Mark.zip
-LinkedIn-Logos.zip
+# postcss compiled file
+/src/css/styles.css
